@@ -6,5 +6,5 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-b[#121212] container mx-auto">
       <HeroSection />
     </main>
-  );
+  )
 }
