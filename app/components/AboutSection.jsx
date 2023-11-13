@@ -62,7 +62,7 @@ const AboutSection = () => {
             working with JavaScript, React, Python, Node.js, PostgreSQL,
             HTML, CSS, and Git. I am a quick learner and In my free time I work 
             on my side projects, coding is what I do for fun and
-            I'm always looking to expand my knowledge and skill set.
+            I&apos;m always looking to expand my knowledge and skill set.
             I am a team player and
             I am excited to work with others to create amazing applications
           </p>

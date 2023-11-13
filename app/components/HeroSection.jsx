@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500'>Hello, I'm{" "}
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500'>Hello, I&apos;m{" "}
             </span> 
             <br></br>
             <TypeAnimation
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
           {/*"In the realm of algorithms and data, I navigate the vast sea of code to architect the future." 
           latin for:Through hardships to the stars, knowledge conquers darkness. From the chair, the coding of the art of discovery. In all things, knowledge, virtue, and technology.*/}
-          "Per aspera ad astra, scientia vincere tenebras. Ex cathedra, codificatio artis quaerendi. In omnia scientiam, virtutem et technologiam."
+          &quot;Per aspera ad astra, scientia vincere tenebras. Ex cathedra, codificatio artis quaerendi. In omnia scientiam, virtutem et technologiam.&quot;
           </p>
           <div className='flex'> {/* Create a flex container */}
             <button className='flex-1 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple500 to-green-500 hover:bg-slate-400 text-white'>
