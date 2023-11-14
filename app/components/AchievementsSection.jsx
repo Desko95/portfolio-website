@@ -28,6 +28,7 @@ const AchievementsSection = () => {
             <div 
               key={index} 
               className="flex flex-col items-center justify-center mx-4 my-2 w-1/4 sm:w-auto"
+              style={{ wordBreak: 'break-word' }}
             >
               <h2 className="text-white text-4xl font-bold">
                 {achievement.value}
