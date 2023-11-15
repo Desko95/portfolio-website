@@ -18,15 +18,20 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
+    // Form the request for sending data to the server.
     const options = {
+      // The method is POST because we are sending data.
       method: "POST",
+      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
+      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
     const response = await fetch(endpoint, options);
+    const resData = await response.json();
 
     if (response.status === 200) {
       console.log("Message sent.");
@@ -39,10 +44,10 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute bottom-8 left-8 transform -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let&apos;s Connect
+          Let`&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
@@ -51,11 +56,11 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/Desko95">
-            <Image src={GithubIcon} alt="git  Image" />
+          <Link href="github.com">
+            <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/simone-sathya-desco-966339276/">
-            <Image src={LinkedinIcon} alt="linkedin Image" />
+          <Link href="linkedin.com">
+            <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
       </div>
@@ -114,7 +119,7 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-gradient-to-r from-blue-500 to-green-500 text-white font-medium py-2.5 px-5 rounded-lg w-full shadow-md hover:shadow-lg"
             >
               Send Message
             </button>
