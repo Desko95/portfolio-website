@@ -12,9 +12,11 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Python</li>
         <li>PostgreSQL</li>
-        <li>Docker</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Docker</li>
+        <li>MongoDB</li>
+        <li>HTML/CSS</li>
       </ul>
     ),
   },
@@ -24,7 +26,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Harvard CS50</li>
+        <li>The Complete Python Pro Bootcamp for 2023</li>
       </ul>
     ),
   },
@@ -57,14 +60,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;am a ?full stack web? developer with a passion for creating
-            interactive and responsive ?web applications?. I have experience
-            working with JavaScript, React, Python, Node.js, PostgreSQL,
-            HTML, CSS, and Git. I am a quick learner and In my free time I work 
-            on my side projects, coding is what I do for fun and
-            I&apos;m always looking to expand my knowledge and skill set.
-            I&apos;am a team player and
-            I&apos;am excited to work with others to create amazing applications
+            I&apos;am a full stack web developer fluent in English, Italian and Spanish
+            with a passion for creating
+            interactive and responsive web applications. 
+            I love fishing, camping, my cat, DIY, cooking and playing videogames.
+            I have experience working with JavaScript, React, Git, Python, Node.js, PostgreSQL, Docker, MongoDB and
+            HTML/CSS. I am a quick learner who likes challenges
+            always looking to expand my knowledge and skill set.
+            Big time team player and
+            I&apos;m excited to work with others to create amazing applications
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

@@ -16,11 +16,11 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Blog app + DB",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Desko95/blog-app",
     previewUrl: "/",
   },
   {
@@ -52,7 +52,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Potography Portfolio Website",
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
