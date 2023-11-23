@@ -11,12 +11,12 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Python</li>
+        <li>Git</li>
         <li>PostgreSQL</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>JavaScript React, Angular</li>
+        <li>HTML/CSS</li>
         <li>Docker</li>
         <li>MongoDB</li>
-        <li>HTML/CSS</li>
       </ul>
     ),
   },
@@ -27,7 +27,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Fullstack Academy of Code</li>
         <li>Harvard CS50</li>
-        <li>The Complete Python Pro Bootcamp for 2023</li>
+        <li>The Complete Python Pro Bootcamp</li>
       </ul>
     ),
   },
@@ -64,8 +64,8 @@ const AboutSection = () => {
             with a passion for creating
             interactive and responsive web applications. 
             I love fishing, camping, my cat, DIY, cooking and playing videogames.
-            I have experience working with JavaScript, React, Git, Python, Node.js, PostgreSQL, Docker, MongoDB and
-            HTML/CSS. I am a quick learner who likes challenges
+            I have experience working with JavaScript, React, HTML/CSS, Git, Python, Node.js, PostgreSQL, Docker and
+            MongoDB. I am a quick learner who likes challenges 
             always looking to expand my knowledge and skill set.
             Big time team player and
             I&apos;m excited to work with others to create amazing applications
