@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Blog app",
-    description: "Classic Blog application + DB",
+    description: "Classic Blog application + DB ",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Desko95/blog-app",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "E-commerce Application",
-    description: "Project 3 description",
+    description: "Not ready yet, this is a placeholder",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Food Ordering Application",
-    description: "Project 4 description",
+    description: "Not ready yet, this is a placeholder",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    description: "Not ready yet, this is a placeholder",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Potography Portfolio Website",
-    description: "Project 5 description",
+    description: "Not ready yet, this is a placeholder",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
