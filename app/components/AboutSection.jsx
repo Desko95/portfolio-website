@@ -15,6 +15,7 @@ const TAB_DATA = [
         <li>PostgreSQL</li>
         <li>JavaScript React, Angular</li>
         <li>HTML/CSS</li>
+        <li>TailwindCSS</li>
         <li>Docker</li>
         <li>MongoDB</li>
       </ul>
