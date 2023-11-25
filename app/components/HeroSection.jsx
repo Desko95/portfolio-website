@@ -4,6 +4,13 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
+  const scrollToEmailSection = () => {
+    const emailSection = document.getElementById("contact"); // Get the element by ID
+    if (emailSection) {
+      emailSection.scrollIntoView({ behavior: "smooth" }); // Scroll to the element smoothly
+    }
+  };
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -38,7 +45,10 @@ const HeroSection = () => {
           <div className="flex">
             {" "}
             {/* Create a flex container */}
-            <button className="flex-1 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple500 to-green-500 hover:bg-slate-400 text-white">
+            <button
+              className="flex-1 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple500 to-green-500 hover:bg-slate-400 text-white"
+              onClick={scrollToEmailSection} // Add onClick event to trigger scrolling
+            >
               Hire Me
             </button>
             <a href="/SimoneSathyaDescoCV2024.pdf" download>
