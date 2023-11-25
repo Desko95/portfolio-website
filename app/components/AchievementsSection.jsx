@@ -27,10 +27,10 @@ const AchievementsSection = () => {
           return (
             <div 
               key={index} 
-              className="flex flex-col items-center justify-center mx-4 my-2 w-1/4 sm:w-auto"
+              className="flex items-center justify-center mx-4 my-2 sm:mx-0 sm:my-0 sm:flex-col sm:w-auto"
               style={{ wordBreak: 'break-word' }}
             >
-              <h2 className="text-white text-4xl font-bold">
+              <h2 className="text-white text-3xl font-bold sm:mr-2">
                 {achievement.value}
               </h2>
               <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
