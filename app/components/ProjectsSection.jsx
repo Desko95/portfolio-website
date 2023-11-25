@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "E-commerce Application",
-    description: "Not ready yet, this is a placeholder",
+    description: "work in progress! this is a placeholder",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Food Ordering Application",
-    description: "Not ready yet, this is a placeholder",
+    description: "work in progress! this is a placeholder",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "React Firebase Template",
-    description: "Not ready yet, this is a placeholder",
+    description: "work in progress! this is a placeholder",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -52,8 +52,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Potography Portfolio Website",
-    description: "Not ready yet, this is a placeholder",
+    title: "Photography Portfolio Website",
+    description: "work in progress! this is a placeholder",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
