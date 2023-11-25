@@ -60,7 +60,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;am a full stack web developer fluent in English, Italian and Spanish
+            I&apos;m a full stack web developer fluent in English, Italian and Spanish
             with a passion for creating
             interactive and responsive web applications. 
             I love fishing, camping, my cat, DIY, cooking and playing videogames.
