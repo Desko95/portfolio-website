@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const achievementsList = [
   {
@@ -25,12 +25,12 @@ const AchievementsSection = () => {
       <div className="border-[#33353F] border rounded-md py-8 px-16 flex flex-row justify-between items-center flex-wrap">
         {achievementsList.map((achievement, index) => {
           return (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="flex items-center justify-center mx-4 my-2 sm:mx-0 sm:my-0 sm:flex-col sm:w-auto"
-              style={{ wordBreak: 'break-word' }}
+              style={{ wordBreak: "break-word" }}
             >
-              <h2 className="text-white text-3xl font-bold sm:mr-2">
+              <h2 className="text-white text-lg font-bold sm:mr-2">
                 {achievement.value}
               </h2>
               <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
