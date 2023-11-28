@@ -25,11 +25,11 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "work in progress! this is a placeholder",
+    title: "Bank App",
+    description: "Modern Bank Website Design",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Desko95/bank_app",
     previewUrl: "/",
   },
   {
