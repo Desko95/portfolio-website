@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Desko95/bank_app",
-    previewUrl: "/",
+    previewUrl: "https://bank-app-2rsy.onrender.com/",
   },
   {
     id: 3,
