@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Desko95/weather-app2",
-    previewUrl: "/",
+    previewUrl: "https://weather-app-vua5.onrender.com/",
   },
   {
     id: 4,
