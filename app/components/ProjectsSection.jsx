@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Personal online portfolio",
+    description: "Fully responsive personal online portfolio",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Desko95/portfolio-website",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Bank App",
-    description: "Modern Bank Website Design",
+    description: "Fully responsive modern bank website design",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Desko95/bank_app",
@@ -25,11 +25,11 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Blog app",
-    description: "Classic Blog application + DB",
+    title: "Weather app",
+    description: "API project weather app",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Desko95/blog-app",
+    gitUrl: "https://github.com/Desko95/weather-app2",
     previewUrl: "/",
   },
   {
