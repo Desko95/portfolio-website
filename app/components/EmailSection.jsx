@@ -26,7 +26,7 @@ const EmailSection = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
+      // Body of the request is the JSON data we created above..
       body: JSONdata,
     };
 
