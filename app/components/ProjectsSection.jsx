@@ -34,11 +34,11 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "work in progress! this is a placeholder",
+    title: "weybnb app",
+    description: "Airbnb copy Front End + Back End",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Desko95/weybnb",
     previewUrl: "/",
   },
   {
