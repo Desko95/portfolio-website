@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "weybnb app",
+    title: "Weybnb app",
     description: "Airbnb copy Front End + Back End",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
@@ -80,7 +80,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="projects" >
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
