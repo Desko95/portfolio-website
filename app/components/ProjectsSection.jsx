@@ -52,13 +52,40 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Photography Portfolio Website",
+    title: "Modern Car Showcase App",
     description: "work in progress! this is a placeholder",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 7,
+    title: "Job search App",
+    description: "work in progress! this is a placeholder",
+    image: "/images/projects/x.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "MERN",
+    description: "work in progress! this is a placeholder",
+    image: "/images/projects/x5.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+   },
+    {
+      id: 9,
+      title: "Photography Portfolio Website",
+      description: "work in progress! this is a placeholder",
+      image: "/images/projects/3X.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
 ];
 
 const ProjectsSection = () => {
