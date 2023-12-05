@@ -43,12 +43,12 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "work in progress! this is a placeholder",
+    title: "AI Article Summarizer",
+    description: "Summarize articles with OpenAI GPT-4 API",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Desko95/ai_summarizer",
+    previewUrl: "https://ai-summarizer-dd2n.onrender.com/",
   },
   {
     id: 6,
