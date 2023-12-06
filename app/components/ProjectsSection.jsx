@@ -52,12 +52,12 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Modern Car Showcase App",
-    description: "work in progress! this is a placeholder",
+    title: "Car Hub App",
+    description: "Car booking App",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Desko95/car_showcase",
+    previewUrl: "https://car-showcase-qlqa.onrender.com/",
   },
   {
     id: 7,
