@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+} */
+:root {
+  --foreground-rgb: 255, 255, 255; /* Text color, usually white on dark backgrounds */
+  --background-rgb: 0, 0, 0; /* Background color, black */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +25,10 @@ body {
   color: #fff; /* text color */
 }
 
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+} */
 
 /* body {
   color: rgb(var(--foreground-rgb));
