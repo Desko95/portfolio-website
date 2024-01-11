@@ -10,10 +10,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
+        <li>Next.js</li>
+        <li>JavaScript React, Angular</li>
         <li>Python</li>
         <li>Git</li>
         <li>PostgreSQL</li>
-        <li>JavaScript React, Angular</li>
         <li>HTML/CSS</li>
         <li>TailwindCSS</li>
         <li>Docker</li>
@@ -26,7 +27,6 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
         <li>Harvard CS50</li>
         <li>The Complete Python Pro Bootcamp</li>
       </ul>
@@ -37,12 +37,22 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+        <a
+          href="https://www.freecodecamp.org/certification/Desko95/responsive-web-design"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Responsive Web Design Certification
+        </a>
+      </li>
+        <li>JavaScript Algorithms and Data Structures (ongoing)</li>
+        
       </ul>
     ),
   },
 ];
+
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");

@@ -39,3 +39,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+/* Add this to your existing styles.css file */
+ul.list-disc.pl-2 li a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+ul.list-disc.pl-2 li a:hover {
+  opacity: 0.5; /* Set the desired opacity on hover */
+}
