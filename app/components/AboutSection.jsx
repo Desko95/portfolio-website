@@ -12,11 +12,11 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Next.js</li>
         <li>JavaScript React, Angular</li>
+        <li>TypeScript</li>
         <li>Python</li>
         <li>Git</li>
         <li>PostgreSQL</li>
-        <li>HTML/CSS</li>
-        <li>TailwindCSS</li>
+        <li>HTML/CSS, TailwindCSS</li>
         <li>Docker</li>
         <li>MongoDB</li>
       </ul>
