@@ -74,12 +74,15 @@ const AboutSection = () => {
             I&apos;m a full stack web developer fluent in English, Italian and Spanish
             with a passion for creating
             interactive and responsive web applications. 
-            I love fishing, camping, my cat, DIY, cooking and playing videogames.
+            A strong advocate in Test Driven Development and understanding the importance of this when writing code. 
+            Comfortable working in Agile/Kanban environments
+            and managing CI/CD pipelines for automated workflows.
             I have experience working with JavaScript, React, HTML/CSS, Git, Python, Node.js, PostgreSQL, Docker and
             MongoDB. I am a quick learner who likes challenges 
             always looking to expand my knowledge and skill set.
             Big time team player and
-            I&apos;m excited to work with others to create amazing applications
+            I&apos;m excited to work with others to create amazing applications.
+            I love fishing, camping, my cat, DIY, cooking and playing videogames.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
