@@ -8,7 +8,8 @@ const projectsData = [
   {
     id: 1,
     title: "Bank App",
-    description: "Fully responsive modern bank website design",
+    description:
+      "All components are placeholders, this Fully responsive modern website design could be used as blueprint for your website",
     image: "/images/projects/2.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Desko95/bank_app",
@@ -17,7 +18,8 @@ const projectsData = [
   {
     id: 2,
     title: "AI Article Summarizer",
-    description: "Summarize articles with OpenAI GPT-4 API",
+    description:
+      "Summarize articles with OpenAI GPT-4 API, just copy and paste your article link in the searchbar and summarize it!",
     image: "/images/projects/5.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Desko95/ai_summarizer",
@@ -25,49 +27,52 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "FoodOrdering app",
+    description:
+      "Responsive React Native Food Delivery app with auth, admin/user side, nested navigation, cart, infinite scrolling and more [NOT DEPLOYED YET]",
+    image: "/images/projects/FoodOrdering.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Desko95/FoodORdering",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Responsive Portfolio Website",
+    description:
+      "Fully responsive personal online portfolio with customizable components",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Desko95/portfolio-website",
+    previewUrl: "https://simonesathyadesco.com/",
+  },
+  {
+    id: 5,
+    title: "Car Hub App",
+    description:
+      "API project Car booking app, search your favourite car and check the specs and pictures from different angles",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Desko95/car_showcase",
+    previewUrl: "https://car-showcase-pi-bice.vercel.app",
+  },
+  {
+    id: 6,
     title: "Weather app",
-    description: "API project weather app",
+    description: "API project weather app, literally what it says",
     image: "/images/projects/3.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Desko95/weather-app2",
     previewUrl: "https://weather-app-vua5.onrender.com/",
   },
   {
-    id: 4,
-    title: "React Portfolio Website",
-    description: "Fully responsive personal online portfolio",
-    image: "/images/projects/1.png",
+    id: 7,
+    title: "GamerFinder",
+    description: "An app to connect gamers and find players in the same server/game/speaking same language to play with online. [NOT DEPLOYED YET] ",
+    image: "/images/projects/player2.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/Desko95/portfolio-website",
-    previewUrl: "https://simonesathyadesco.com/",
+    gitUrl: "https://github.com/Desko95/GamerFinder",
+    previewUrl: "/",
   },
-   {
-     id: 5,
-     title: "Car Hub App",
-     description: "API project Car booking app",
-     image: "/images/projects/6.png",
-     tag: ["All", "Web"],
-     gitUrl: "https://github.com/Desko95/car_showcase",
-     previewUrl: "https://car-showcase-pi-bice.vercel.app",
-   },
-  // {
-  //   id: 6,
-  //   title: "Weybnb app",
-  //   description: "Airbnb copy Front End + Back End",
-  //   image: "/images/projects/4.png",
-  //   tag: ["All", "Mobile"],
-  //   gitUrl: "https://github.com/Desko95/weybnb",
-  //   previewUrl: "/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Job search App",
-  //   description: "work in progress! this is a placeholder",
-  //   image: "/images/projects/x.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
   // {
   //   id: 8,
   //   title: "MERN",
@@ -107,7 +112,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" >
+    <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
@@ -132,10 +137,10 @@ const ProjectsSection = () => {
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
-            variants={cardVariants} 
-            initial="initial" 
+            variants={cardVariants}
+            initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4}}
+            transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
               key={project.id}
@@ -147,7 +152,7 @@ const ProjectsSection = () => {
             />
           </motion.li>
         ))}
-        </ul>
+      </ul>
     </section>
   );
 };
