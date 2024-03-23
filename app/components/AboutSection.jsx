@@ -78,7 +78,7 @@ const AboutSection = () => {
             A strong advocate in Test Driven Development and understanding the importance of this when writing code. 
             Comfortable working in Agile/Kanban environments
             and managing CI/CD pipelines for automated workflows.
-            I have experience working with JavaScript, React, React Native, HTML/CSS, Git, Python, Node.js, PostgreSQL, Docker and
+            I have experience working with JavaScript, TypeScript, React, React Native, HTML/CSS, Git, Python, Node.js, PostgreSQL, Docker and
             MongoDB. I am a quick learner who likes challenges 
             always looking to expand my knowledge and skill set.
             Big time team player and
