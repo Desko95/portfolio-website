@@ -10,14 +10,15 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Next.js</li>
         <li>JavaScript </li>
-        <li>TypeScript</li>
         <li>React, React Native</li>
+        <li>HTML/CSS, TailwindCSS</li>
+        <li>TypeScript</li>
+        <li>Next.js</li>
+        <li>WordPress</li>
         <li>Python</li>
         <li>Git</li>
         <li>PostgreSQL</li>
-        <li>HTML/CSS, TailwindCSS</li>
         <li>Docker</li>
         <li>MongoDB</li>
       </ul>
@@ -39,21 +40,19 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-        <a
-          href="https://www.freecodecamp.org/certification/Desko95/responsive-web-design"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Responsive Web Design Certification
-        </a>
-      </li>
+          <a
+            href="https://www.freecodecamp.org/certification/Desko95/responsive-web-design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            FreeCodeCamp Responsive Web Design Certification
+          </a>
+        </li>
         <li>JavaScript Algorithms and Data Structures (ongoing)</li>
-        
       </ul>
     ),
   },
 ];
-
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
@@ -68,22 +67,25 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} alt="About Me Image" />
+        <Image
+          src="/images/about-image.png"
+          width={500}
+          height={500}
+          alt="About Me Image"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a full stack web developer fluent in English, Italian and Spanish
-            with a passion for creating
-            interactive and responsive web applications. 
-            A strong advocate in Test Driven Development and understanding the importance of this when writing code. 
-            Comfortable working in Agile/Kanban environments
-            and managing CI/CD pipelines for automated workflows.
-            I have experience working with JavaScript, TypeScript, React, React Native, HTML/CSS, Git, Python, Node.js, PostgreSQL, Docker and
-            MongoDB. I am a quick learner who likes challenges 
-            always looking to expand my knowledge and skill set.
-            Big time team player and
-            I&apos;m excited to work with others to create amazing applications.
-            I love fishing, camping, my cat, DIY, cooking and playing videogames.
+            Experienced React developer proficient in frameworks like Next.js
+            and design libraries such as Tailwind CSS. With a solid foundation
+            in object-oriented programming and a keen understanding of web
+            development technologies including HTML and CSS, I bring a proactive
+            approach and a common-sense mindset to every project. Proficient in
+            code control systems like Git, I thrive in collaborative
+            environments, valuing teamwork, continuous learning, and mutual
+            respect among team members. I am a quick learner who likes
+            challenges always looking to expand my knowledge and skill set. I
+            love fishing, camping, my cat, DIY, cooking and playing videogames.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

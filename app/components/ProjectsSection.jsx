@@ -47,14 +47,14 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Car Hub App",
-    description:
-      "API project Car booking app, search your favourite car and check the specs and pictures from different angles",
-    image: "/images/projects/6.png",
+    title: "Business Website",
+    description: "Modern business website created using WordPress",
+    image: "/images/projects/8.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Desko95/car_showcase",
-    previewUrl: "https://car-showcase-pi-bice.vercel.app",
+    gitUrl: "/",
+    previewUrl: "https://billsplaice.com",
   },
+
   {
     id: 6,
     title: "Weather app",
@@ -67,21 +67,24 @@ const projectsData = [
   {
     id: 7,
     title: "GamerFinder",
-    description: "An app to connect gamers and find players in the same server/game/speaking same language to play with online. [NOT DEPLOYED YET] ",
+    description:
+      "An app to connect gamers and find players in the same server/game/speaking same language to play with online. [NOT DEPLOYED YET] ",
     image: "/images/projects/player2.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Desko95/GamerFinder",
     previewUrl: "/",
   },
-  // {
-  //   id: 8,
-  //   title: "MERN",
-  //   description: "work in progress! this is a placeholder",
-  //   image: "/images/projects/x5.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  //  },
+
+  {
+    id: 8,
+    title: "Car Hub App",
+    description:
+      "API project Car booking app, search your favourite car and check the specs and pictures from different angles",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Desko95/car_showcase",
+    previewUrl: "https://car-showcase-pi-bice.vercel.app",
+  },
   //   {
   //     id: 9,
   //     title: "Photography Portfolio Website",
