@@ -76,7 +76,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Experienced React developer proficient in frameworks like Next.js
+            Experienced self-taught React developer proficient in frameworks like Next.js
             and design libraries such as Tailwind CSS. With a solid foundation
             in object-oriented programming and a keen understanding of web
             development technologies including HTML and CSS, I bring a proactive
