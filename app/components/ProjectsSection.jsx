@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Business Website",
+    description: "Modern business website created using WordPress",
+    image: "/images/projects/8.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://billsplaice.com",
+  },
+  {
+    id: 2,
     title: "Bank App",
     description:
       "All components are placeholders, this Fully responsive modern website design could be used as blueprint for your website",
@@ -14,16 +23,6 @@ const projectsData = [
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Desko95/bank_app",
     previewUrl: "https://bank-app-2rsy.onrender.com/",
-  },
-  {
-    id: 2,
-    title: "AI Article Summarizer",
-    description:
-      "Summarize articles with OpenAI GPT-4 API, just copy and paste your article link in the searchbar and summarize it!",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/Desko95/ai_summarizer",
-    previewUrl: "https://ai-summarizer-dd2n.onrender.com/",
   },
   {
     id: 3,
@@ -47,12 +46,13 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Business Website",
-    description: "Modern business website created using WordPress",
-    image: "/images/projects/8.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://billsplaice.com",
+    title: "AI Article Summarizer",
+    description:
+      "Summarize articles with OpenAI GPT-4 API, just copy and paste your article link in the searchbar and summarize it!",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Desko95/ai_summarizer",
+    previewUrl: "https://ai-summarizer-dd2n.onrender.com/",
   },
 
   {
