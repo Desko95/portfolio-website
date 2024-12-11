@@ -76,12 +76,17 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-           React developer with commercial experience, proficient in frameworks like Next.js and design libraries such as Tailwind CSS. 
-           I have a solid foundation in object-oriented programming and a keen understanding of web development technologies, including HTML and CSS.
-           Proficient in version control systems like Git, I thrive in collaborative environments that value teamwork, 
-           continuous learning, and mutual respect among team members. As a quick learner who enjoys challenges, 
-           I’m always seeking to expand my knowledge and skill set.
-            Outside of coding, I love fishing, camping, spending time with my cats, DIY projects, cooking, and playing video games.
+            Front-End Developer with Back-End Experience looking to transition into a permanent position after doing freelance for so long. With
+            hands-on experience dealing with clients, I understand the
+            importance of excellent customer service—it’s been a key part of my
+            freelance journey. Currently studying cybersecurity, I’m eager to
+            join a company that can help me grow while making the most of my
+            skills. I’m not afraid to take on responsibilities, learn new
+            programming languages, or put in the extra effort/hours to deliver great
+            results. Outside of coding, I enjoy fishing, camping, spending time
+            with my cats, tackling DIY projects (I have a YouTube channel),
+            cooking, and gaming. If this sounds like someone you’d like on your
+            team, feel free to reach out at simonedescode@gmail.com.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
