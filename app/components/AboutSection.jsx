@@ -5,16 +5,16 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
+    title: "My Stack",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
+        <li>Next.js</li>
         <li>JavaScript </li>
         <li>React, React Native</li>
         <li>HTML/CSS, TailwindCSS</li>
         <li>TypeScript</li>
-        <li>Next.js</li>
         <li>WordPress</li>
         <li>Python</li>
         <li>Git</li>
